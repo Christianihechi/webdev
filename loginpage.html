@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="A login page">
+    <meta name ="author" content ="Christian Ihechi" >
+    <meta name ="charset" content ="UTF-8">
+    <meta name="viewport" content="width = device-width, intial scale=1.0">
+    <html lang="en">
+
+        <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+        <form method="POST" action="./loginsuccess.html">
+        <fieldset>
+
+            <h1>Login Page</h1>
+
+            <label>Username</label><br>
+            <input type="email" required placeholder="Enter your email"> <br><br>
+            <label>Password</label><br>
+            <input type="password" required placeholder="Type a secure password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{9}" title="Must contain at least 9 characters : one uppercase  or lowercase and a number"><br><br>
+            <input type="submit" name="submit" value="Login" style="background-color: tomato;">
+
+        </fieldset>
+        
+
+</body>
+
+
+</html>
