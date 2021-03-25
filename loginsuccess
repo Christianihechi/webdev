@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <strong class="succ"> Congratulations, you have successfully logged in !</strong>
+</body>
+
+
+</html>
